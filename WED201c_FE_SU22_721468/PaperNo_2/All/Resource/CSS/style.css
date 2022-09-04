@@ -1,0 +1,113 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header__left{
+    display: flex;
+    list-style: none;
+}
+.header__left li{
+    margin: 0 20px;
+}
+.header__left a{
+    text-decoration: none;
+}
+
+.logoacer img{
+    width: 60%;
+}
+.searchbar input{
+    padding: 10px;
+}
+
+.searchbar button{
+    padding: 10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+
+.searchbar button:active{
+    background-color: darkslategrey;
+}
+
+.Banner{
+    display: flex;
+}
+.product .bestsell{
+    display: flex;
+}
+.product h1{
+    text-align: center;
+    color: orchid;
+}
+.product__Best__Sellers img{
+width: 100%;
+}
+.product__Best__Sellers{
+width: 50%;
+}
+.Details{
+ width: 49%;
+}
+
+.Details h2{
+    color: orange;
+    font-style: italic;
+}
+
+.Details span{
+    color: orange;
+    font-style: italic;
+}
+
+.SALE__OFF h1{
+    text-align: center;
+    color: orchid;
+}
+
+.Product__Sale__Off{
+    display: flex;
+}
+.SALE__OFF .product{
+    box-shadow: 0 0 10px;
+    padding: 50px 10px;
+    margin:  0 30px;
+    text-align: center;
+}
+
+.SALE__OFF .product img{
+    width: 100%;
+}
+
+.SALE__OFF .product p{
+    color: red;
+    font-weight: bold;
+}
+.SALE__OFF .product del{
+    font-weight: normal;
+    color:gray;
+    margin: 0 3px;
+}
+
+.SALE__OFF .product button{
+    padding: 15px;
+    border: none;
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.SALE__OFF .product button:active{
+    background-color: darkslategrey;
+}
+
+.footer{
+    text-align: center;
+    background-color:rgb(180, 98, 5);
+    padding: 20px 0 30px 0;
+    margin-top: 20px;
+}
