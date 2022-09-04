@@ -1,0 +1,129 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left {
+    color: red;
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.header__right {
+    margin-right: 20px;
+}
+
+.header__right button {
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.menu_and_saleoff {
+    display: flex;
+}
+
+.menu_and_saleoff h1 {
+    text-align: center;
+}
+
+.menu {
+    width: 16.9%;
+    background-color: #333333;
+    margin-right: 30px;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: list-item;
+}
+ul{
+    padding-inline-start: 0px;
+    margin-block-start: 0px
+}
+
+
+.menu li:first-child{
+    background-color: #008cff;
+}
+
+.menu li:hover{
+    background-color: #008000;
+}
+
+.saleoff {
+    width: 79%;
+}
+.saleoff h1{
+    color: #00a2ff;
+    margin-bottom: 30px;
+}
+
+.product{
+    margin-bottom: 50px;
+}
+
+.product .three_first{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.product .three_last{
+    display: flex;
+}
+.product img{
+    width: 100%;
+}
+
+.item{
+    margin: 0 45px;
+    box-shadow: #000000 0px 0px 10px 0px;
+    border-radius: 4px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.buy{
+    padding: 10px;
+    display: inline-block;
+    background-color: #ff4500;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+del{
+    color: #808080;
+    font-weight: normal;
+}
+
+.item p{
+    color: red;
+    font-weight: bold;
+}
+.footer{
+    background-color: #008cff;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.footer p:first-child{
+    margin-block-start: 0px;
+}

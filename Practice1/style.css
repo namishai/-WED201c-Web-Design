@@ -1,0 +1,34 @@
+header{
+    width: 100%;
+    height: 50px;
+    background-color: dodgerblue;
+    text-align: center;
+    display: block;    
+    box-sizing: border-box;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-family: 'Cabin', sans-serif;
+}
+
+header .chubentrai{
+    width: 49%;
+    height: 60px;
+    float: left;
+}
+
+header .barbenphai{
+    width: 49%;
+    height: 60px;
+    float: left;
+}
+
+header .barbenphai a{
+    margin-right: 20px;
+}
+
+#doimau :hover{
+    color: chocolate;
+}
+@media only screen and (max-width:500px){
+    
+}

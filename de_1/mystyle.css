@@ -1,0 +1,73 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(247, 86, 28);
+}
+
+header nav{
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+header nav a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.detail{
+    display: flex;
+}
+
+.left{
+    width: 25%;
+    text-align: center;
+
+}
+
+.left ul li{
+    list-style: none;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: aqua;
+    border-bottom: 1px solid rgba(247, 86, 28, 0.5);
+}
+.left li:hover{
+    background-color: rgb(247, 86, 28);
+    cursor: pointer;
+}
+
+.right{
+    width: 69%;
+    margin-left: 30px;
+    border-left: 2px rgb(247, 86, 28) solid;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(247, 86, 28);
+    padding: 5px;
+}
+
+.tuvan .title{
+    color: rgb(247, 86, 28);
+    font-size: 37px;
+}
+button{
+    background-color: rgb(247, 86, 28);
+    border: none;
+    padding: 2px 17px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#showinfo{
+    width: fit-content;
+    height: auto;
+    border: 1px solid black;
+    display: none;
+    background-color: white;  
+}
